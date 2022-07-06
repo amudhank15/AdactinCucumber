@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user login in the adactin application",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-login-in-the-adactin-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8829430600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch the application",
+            "match": {
+              "location": "Step_Defintion.user_Launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 459747800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the username in username field",
+            "match": {
+              "location": "Step_Defintion.user_enter_the_username_in_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174677700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter the password in password field",
+            "match": {
+              "location": "Step_Defintion.user_Enter_the_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1776186900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the login button and it navigate to search hotel page",
+            "match": {
+              "location": "Step_Defintion.user_click_the_login_button_and_it_navigate_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel booking in adactin application",
+    "description": "",
+    "id": "hotel-booking-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
